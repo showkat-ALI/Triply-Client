@@ -1,0 +1,20 @@
+.whyus {
+  background-image: url("../../images/h3-img-1_optimized-1.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+@media only screen and (max-width:666px) {
+
+  
+  .services {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 7px;
+  }
+}

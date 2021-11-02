@@ -1,0 +1,16 @@
+/* destination desgine */
+.destinations {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.set-wave-bg {
+  background-image: url("../../images/home4_deco-4.png");
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 666px) {
+  .destinations {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

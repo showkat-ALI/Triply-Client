@@ -1,0 +1,9 @@
+/* banner desgine */
+.banner-img {
+  height: 88vh;
+}
+@media only screen and (max-width: 666px) {
+  .banner-img {
+    height: 60vh;
+  }
+}

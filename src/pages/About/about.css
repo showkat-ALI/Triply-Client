@@ -1,0 +1,14 @@
+/* about desgine */
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 666px) {
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutimg img{
+    width: 50%;
+  }
+}
